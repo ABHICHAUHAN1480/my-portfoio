@@ -33,7 +33,7 @@ const App = () => {
   };
 
   return (
-    <div className="font-montserrat  ">
+    <div className="font-montserrat cursor-default ">
       <Nav menuOpen={menuOpen} toggleMenu={toggleMenu} />
 
       <main className={`mt-[64px] relative ${menuOpen && 'opacity-80'}`} style={sectionStyle}>

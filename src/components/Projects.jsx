@@ -4,7 +4,7 @@ const Projects = () => {
   const projects = [
     {
       title: 'SmartBite',
-      skills: 'HTML | CSS | Javascript | React',
+      skills: 'HTML | CSS | Javascript | MERN Stack',
       about: 'SmartBite is an AI-powered diet planner designed to help users manage their nutrition effectively. It includes features like meal plan generation, inventory management for ingredients with expiry tracking, and recipe suggestions based on user preferences or available ingredients.',
       learning: 'While working on SmartBite, I gained hands-on experience with React for building dynamic user interfaces, managing state with hooks, integrating third-party APIs (Spoonacular and Clarifai), and implementing authentication with JWT.',
       visitLink: 'https://smartbite2.vercel.app/',
@@ -21,10 +21,11 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="bg-gradient-to-r from-blue-purple to-queen-pink p-8">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <section id="projects" className="bg-gradient-to-r from-blue-purple to-queen-pink min-h-[100vh] pb-8  p-1 ">
+      <div    className="max-w-6xl  mx-auto">
+      <h2 className="text-4xl font-bold text-center text-gray-800 mb-12 mt-20 ">Projects</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 ">
+        
           {projects.map(({ title, skills, about, learning, visitLink, sourceLink }, index) => (
             <div
               key={index}
@@ -37,7 +38,7 @@ const Projects = () => {
                 <p className="text-gray-700 mb-4">
                   <span className="font-semibold">Learnings:</span> {learning}
                 </p>
-                <div className="flex justify-between mt-4">
+                <div className="flex justify-between ">
                   <a
                     href={visitLink}
                     target="_blank"
