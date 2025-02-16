@@ -9,15 +9,22 @@ const Projects = () => {
       learning: 'While working on SmartBite, I gained hands-on experience with React for building dynamic user interfaces, managing state with hooks, integrating third-party APIs (Spoonacular and Clarifai), and implementing authentication with JWT.',
       visitLink: 'https://smartbite2.vercel.app/',
       sourceLink: 'https://github.com/ABHICHAUHAN1480/SmartBIte',
+    },{
+       title: "FoodHeaven",
+       skills: "HTML | CSS | JavaScript | MERN Stack",
+       about: "FoodHeaven is a restaurant web application that allows users to explore the menu, place food orders, and make online reservations seamlessly. It ensures a smooth user experience with secure authentication, an intuitive interface, and responsive design.",
+       learning: "While working on FoodHeaven, I enhanced my skills in full-stack development using the MERN stack, integrated Clerk for authentication, optimized backend operations with Node.js and Express, and improved UI/UX using Tailwind CSS.",
+       visitLink: 'https://food-haven-roan.vercel.app/',
+      sourceLink: 'https://github.com/ABHICHAUHAN1480/Food-Haven',
     },
-    {
-      title: 'Spotify Clone',
-      skills: 'HTML | CSS | Javascript',
-      about: 'Spotify Clone is a web-based music player inspired by the Spotify UI. It allows users to browse songs, play/pause tracks, navigate between songs, and control the seek bar with a clean and responsive design.',
-      learning: 'This project helped me deepen my understanding of DOM manipulation, event handling, and creating responsive designs using CSS. Additionally, I learned how to dynamically render content and enhance user experience with intuitive controls.',
-      visitLink: 'https://hissing-notebook-broad.on-fleek.app/',
-      sourceLink: 'https://github.com/ABHICHAUHAN1480/spotifyclone',
-    },
+    // {
+    //   title: 'Spotify Clone',
+    //   skills: 'HTML | CSS | Javascript',
+    //   about: 'Spotify Clone is a web-based music player inspired by the Spotify UI. It allows users to browse songs, play/pause tracks, navigate between songs, and control the seek bar with a clean and responsive design.',
+    //   learning: 'This project helped me deepen my understanding of DOM manipulation, event handling, and creating responsive designs using CSS. Additionally, I learned how to dynamically render content and enhance user experience with intuitive controls.',
+    //   visitLink: 'https://hissing-notebook-broad.on-fleek.app/',
+    //   sourceLink: 'https://github.com/ABHICHAUHAN1480/spotifyclone',
+    // },
   ];
 
   return (
